@@ -17,13 +17,13 @@ jobs:
         with:
           node-version: '20'
       - name: Install Dependencies
-        run: npm install
+        run: npm install --prefix src
       - name: Lint Code
-        run: npm run lint
+        run: npm run lint --prefix src
       - name: Run Unit Tests
-        run: npm test
+        run: npm test --prefix src
       - name: Run E2E Tests
-        run: npx playwright test
+        run: npx playwright test --prefix src
 
 
 

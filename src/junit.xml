@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="1" failures="0" errors="0" time="0.827">
-  <testsuite name="Add Note" errors="0" failures="0" skipped="0" timestamp="2025-08-18T06:29:13" time="0.708" tests="1">
-    <testcase classname="Add Note Should add a new note and redirect to login" name="Add Note Should add a new note and redirect to login" time="0.076">
+<testsuites name="jest tests" tests="1" failures="1" errors="0" time="0.559">
+  <testsuite name="Add Note" errors="0" failures="1" skipped="0" timestamp="2025-08-18T06:44:54" time="0.515" tests="1">
+    <testcase classname="Add Note Should add a new note and redirect to login" name="Add Note Should add a new note and redirect to login" time="0.056">
+      <failure>Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at Function.listen (/home/benson/assignment-1-s4146749-s4059550-fake/src/node_modules/express/lib/application.js:618:24)
+    at Object.listen (/home/benson/assignment-1-s4146749-s4059550-fake/src/app.js:25:5)
+    at Runtime._execModule (/home/benson/assignment-1-s4146749-s4059550-fake/src/node_modules/jest-runtime/build/index.js:1266:24)
+    at Runtime._loadModule (/home/benson/assignment-1-s4146749-s4059550-fake/src/node_modules/jest-runtime/build/index.js:942:12)
+    at Runtime.requireModule (/home/benson/assignment-1-s4146749-s4059550-fake/src/node_modules/jest-runtime/build/index.js:830:12)
+    at Runtime.requireModuleOrMock (/home/benson/assignment-1-s4146749-s4059550-fake/src/node_modules/jest-runtime/build/index.js:962:21)
+    at Object.require (/home/benson/assignment-1-s4146749-s4059550-fake/src/tests/integration/note.test.js:1:13)
+    at Runtime._execModule (/home/benson/assignment-1-s4146749-s4059550-fake/src/node_modules/jest-runtime/build/index.js:1266:24)
+    at Runtime._loadModule (/home/benson/assignment-1-s4146749-s4059550-fake/src/node_modules/jest-runtime/build/index.js:942:12)
+    at Runtime.requireModule (/home/benson/assignment-1-s4146749-s4059550-fake/src/node_modules/jest-runtime/build/index.js:830:12)
+    at jestAdapter (/home/benson/assignment-1-s4146749-s4059550-fake/src/node_modules/jest-circus/build/runner.js:95:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runTestInternal (/home/benson/assignment-1-s4146749-s4059550-fake/src/node_modules/jest-runner/build/index.js:275:16)
+    at runTest (/home/benson/assignment-1-s4146749-s4059550-fake/src/node_modules/jest-runner/build/index.js:343:7)</failure>
     </testcase>
   </testsuite>
 </testsuites>

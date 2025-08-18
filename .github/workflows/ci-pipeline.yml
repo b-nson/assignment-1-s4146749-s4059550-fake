@@ -1,4 +1,32 @@
 name: Notes Application CI Pipeline
+
+
+on:
+  push:
+    branches: ['*']  # Triggers on any branch
+  pull_request:
+    branches: ['*']  # Triggers on PRs from any branch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install Dependencies
+        run: npm install
+      - name: Lint Code
+        run: npm run lint
+      - name: Run Unit Tests
+        run: npm test
+      - name: Run E2E Tests
+        run: npx playwright test
+
+
+
 # create a CI pipeline based on the assignment specification
 # remember to commit often
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="1" failures="0" errors="0" time="1.201">
-  <testsuite name="Add Note" errors="0" failures="0" skipped="0" timestamp="2025-07-27T05:22:11" time="0.938" tests="1">
-    <testcase classname="Add Note Should add a new note and redirect to login" name="Add Note Should add a new note and redirect to login" time="0.1">
+<testsuites name="jest tests" tests="1" failures="0" errors="0" time="0.827">
+  <testsuite name="Add Note" errors="0" failures="0" skipped="0" timestamp="2025-08-18T06:29:13" time="0.708" tests="1">
+    <testcase classname="Add Note Should add a new note and redirect to login" name="Add Note Should add a new note and redirect to login" time="0.076">
     </testcase>
   </testsuite>
 </testsuites>

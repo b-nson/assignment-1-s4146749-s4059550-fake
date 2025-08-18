@@ -19,11 +19,11 @@ jobs:
       - name: Install Dependencies
         run: npm install --prefix src
       - name: Lint Code
-        run: npm run lint --prefix src
+        run: npm run test:lint --prefix src
       - name: Run Unit Tests
-        run: npm test --prefix src
+        run: npm run test:unit --prefix src
       - name: Run E2E Tests
-        run: npx playwright test --prefix src
+        run: npm run test:e2e --prefix src
 
 
 

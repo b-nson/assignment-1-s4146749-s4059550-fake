@@ -3,21 +3,6 @@
 - Full Name/Names: Anuji Nethara Peiris, Wen Bin Liang
 - Student ID/IDs: s4059550, s4146749
 
-5. Commit images to the `img` directory and add them like 
-    ```html
-    <img src="/img/md.png" style="height: 70px;"/>
-    ```
-    <img src="/img/md.png" style="height: 70px;"/>
-
-6. Only edit THIS README.md - not the src/README.md
-## 1. Heading
-### 1.1 Subheading 
-### 1.2 Subheading 
-
-## 2. Heading
-### 2.1 Subheading 
-### 2.2 Subheading 
-
 ## 1. Pipeline Overview
 
 ### 1.1 Pipeline Triggers:

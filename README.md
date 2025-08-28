@@ -36,7 +36,7 @@ The pipeline runs on git push to any branch or PR to main, executing steps like 
 
 - Checkout Code: Uses actions/checkout@v4 to access the repository.
 
-- Node.js: Version 20 Configures Node.js version 20 using actions/setup-node@v4
+- Node.js: Configures Node.js version 20 using actions/setup-node@v4
 
 - Install Dependencies: Runs npm install in the src directory to set up project dependencies.
 
@@ -269,7 +269,7 @@ a. E2E playwright test is added. ✅
 
   
 
-b. Application functions as expected from the UI on 3 platforms. ✅
+b. Application functions as expected from the UI on 3 platforms (chromium, firefox, webkit). ✅
 
 - From src/playwright-report/index.html
 

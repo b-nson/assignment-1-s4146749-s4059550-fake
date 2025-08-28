@@ -229,7 +229,7 @@ d. New features are developed on feature branches and merged into main via PR �
 
 a. Ensured that artefacts are generated on main branch only. ✅
 
-- Main branch:
+- Main branch (Artifacts: 1):
 
   
 
@@ -237,7 +237,7 @@ a. Ensured that artefacts are generated on main branch only. ✅
 
   
 
-- Other branch:
+- Other branch (Artifacts: 0):
 
   
 
